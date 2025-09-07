@@ -837,7 +837,7 @@ extern "C" {
  *  than the function is for.
  *
  *  @analysis Failure to detect any platform usually only happens on non-macOS Unix
- *  systems, either when no window system is running or the program was run from
+ *  systems, either when no window system is running or the program was Run from
  *  a terminal that does not have the necessary environment variables.  Fall back to
  *  a different platform if possible or notify the user that no usable platform was
  *  detected.
